@@ -1,0 +1,29 @@
+#header{}
+.main-container{ position:relative; height: 1024px; width: 100%;}
+.main-row{}
+.h-container{position:relative; z-index: 10;}
+.h-row{margin:0 10%;}
+.header{font-size:18px; font-family: 'Poppins', sans-serif; font-weight:300; height: 80px; width: 100%; display: flex; justify-content: space-between;align-items: center;}
+.header .logo{}
+.header .nav{}
+.header .nav ul{ display: flex; justify-content: space-between;width: 700px;}
+.header .nav ul li{ height:80px; line-height: 90px;}
+.header .nav ul li a{transition:all .3s ease-in-out; color:#fff; display: inline-block; width: 118px;height: 40px;line-height: 40px;text-align: center; ;border-radius: 30px;}
+.header .nav ul li:hover a{ background-color: #fff; color:#000;}
+.header .sub-nav{width: 154px;}
+.header .sub-nav ul{display: flex; justify-content: space-between;}
+.header .sub-nav ul li{height:80px; line-height: 90px;}
+.header .sub-nav ul li a{ color:#fff;opacity: .7;transition: all .3s ease-in-out;}
+.header .sub-nav ul li:hover a{opacity:1;}
+.main-container{position: relative;}
+.main-container .m-img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/m_slider2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
